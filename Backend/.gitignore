@@ -1,0 +1,43 @@
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# ==========================================
+# Python (ai-service & general)
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+env/
+
+# ==========================================
+# Node.js / JavaScript (src & root)
+# ==========================================
+node_modules/
+/npm-debug.log*
+/yarn-errors.log*
+/yarn-debug.log*
+.eslintcache
+
+# ==========================================
+# Project Specific (Uploads & Media)
+# ==========================================
+# Ignores files inside the uploads folder, but keeps the folder itself
+uploads/*
+!uploads/.gitkeep
+
+# ==========================================
+# Operating System & IDEs
+# ==========================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
